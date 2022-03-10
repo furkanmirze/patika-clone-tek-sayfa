@@ -1,3 +1,6 @@
+@import url("header.css");
+
+
 *{
     margin: 0;
     padding: 0;
@@ -19,109 +22,4 @@ body{
     content: "";
     display: block;
     clear: both;
-}
-
-header{
-    position: relative;
-}
-
-#header-container{
-    width: 1180px;
-    height: 100px;
-    margin-left: auto;
-    margin-right: auto;
-
-    position: sticky;
-    top: 0px;
-}
-
-#logo{
-    display: block;
-    float: left;
-    width: 75px;
-    height: 75px;
-    margin-left: 10px;
-    margin-top: 10px;
-}
-
-#logo img{
-    width: 75px;
-    height: 75px;
-    cursor: pointer;
-}
-
-#header-nav-container{
-    float: left;
-    margin-left: 15px;
-    margin-top: 30px;
-    display: inline-block;
-    width: auto;
-}
-
-.item-div{
-    float: left;
-    width: auto;
-    height: auto;
-}
-
-.item{
-    display: block;
-    padding: 5px;
-    font-size: 16px;
-    margin-right: 5px;
-    color: #262626;
-}
-
-.item:focus{
-    text-decoration: underline 3px solid var(--gold-patika);
-    text-underline-offset: 3px;
-}
-
-/* RIGHT SIDE */
-
-#right-side-container{
-    width: auto;
-    height: 100px;
-    float: left;
-    display: inline-block;
-}
-
-#user-count{
-    margin-top: 33px;
-    float: right;
-    margin-left: 150px
-}
-
-#green-dot-div{
-    width: 19px;
-    height: 19px;
-    float: left;
-}
-
-#online-div{
-    width: auto;
-    height: 19px;
-    float: left;
-}
-
-#user-count img{
-    width: 19px;
-    height: 19px;
-    float: left;
-}
-
-#profile-score-container{
-    margin-top: 15px;
-    float: left;
-    margin-left: 20px;   
-}
-
-.profile-score-class{
-    height: 30px;
-    margin: 5px;
-}
-
-#score-div{
-    color: var(--gold-patika);
-    font-size: 18px;
 }
