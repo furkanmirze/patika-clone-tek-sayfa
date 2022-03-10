@@ -1,5 +1,6 @@
+/* TÜM CSS DÖKÜMANLARI BURADAN IMPORT EDİLDİ */
 @import url("header.css");
-
+@import url("main.css");
 
 *{
     margin: 0;

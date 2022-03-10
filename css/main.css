@@ -1,0 +1,73 @@
+:root{
+    --bg-c-patika: #FAFAFA;
+    --gold-patika: #FEBF5E;
+    --bg-intro: #F8E6CA;
+}
+
+/* TOP CONTAINER START */
+
+#main-top-container{
+    box-sizing: border-box;
+    width: 1150px;
+    height: 350px;
+    padding: 20px;
+    background-color: #F8E6CA;
+    border-radius: 10px;
+
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main-top-container__first{
+    width: 100%;
+    height: 60%;
+    /* background-color: aqua; */
+    font-size: 16px;
+    color: #898989;
+}
+
+#main-top-container__first-h1{
+    margin-top: 5px;
+    color: #262626;
+}
+
+#course-description{
+    color: #262626;
+    margin-top: 50px;
+    font-size: 14px;
+    width: 60%;
+}
+
+.main-top-container__second{
+    width: 100%;
+    height: 40%;
+    /* background-color: rgb(10, 68, 68); */
+}
+
+#patika-join-alert-button{
+    width: auto;
+    height: auto;
+    display: inline-block;
+    margin-top: 40px;
+}
+
+.alert-button{
+    border: 2px solid var(--gold-patika);
+    color: #262626;
+    font-size: 20px;
+    background-color: var(--bg-intro);
+    padding: 5px 10px 5px 10px;
+}
+
+.alert-button:hover{
+    padding: 6px 11px 6px 11px;
+}
+
+#last-up-date-div em{
+    color: #262626;
+    font-size: 14px;
+}
+
+/* TOP CONTAINER END */
+
