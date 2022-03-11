@@ -2,12 +2,29 @@
     --bg-c-patika: #FAFAFA;
     --gold-patika: #FEBF5E;
     --bg-intro: #F8E6CA;
+    --blue-patika: #444BFF;
+    --gray-patika: #F1F1F1;
+    --dark-patika: #262626;
+
+    --box-sizing: border-box;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+#general-container{
+    /* box-sizing: border-box; */
+    width: 1150px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
 }
 
 /* TOP CONTAINER START */
 
 #main-top-container{
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     width: 1150px;
     height: 350px;
     padding: 20px;
@@ -22,7 +39,6 @@
 .main-top-container__first{
     width: 100%;
     height: 60%;
-    /* background-color: aqua; */
     font-size: 16px;
     color: #898989;
 }
@@ -36,7 +52,7 @@
     color: #262626;
     margin-top: 50px;
     font-size: 14px;
-    width: 60%;
+    width: 65%;
 }
 
 .main-top-container__second{
@@ -69,5 +85,192 @@
     font-size: 14px;
 }
 
-/* TOP CONTAINER END */
+/*     TOP CONTAINER END    */
+/* ------------------------ */
+/* INFO DIV CONTAINER START */
 
+#info-div-container{
+    display: inline-block;
+    background-color: white;
+    width: 63%;
+    height: 170px;
+    border-radius: 10px;
+
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+#info-div-first{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+#info-div-second{
+    width: 50%;    
+    height: 100%;
+    float: left;
+}
+
+.cell-img{
+    width: 15px;
+    height: 15px;
+}
+
+.info-div-first__item-div{
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 5px;
+    letter-spacing: -1px;
+}
+
+.info-div-second__item-div{
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 5px;
+    letter-spacing: -1px;
+}
+
+/* RIGHT SIDE CATALOG */
+
+.m-top{
+    margin-top: 40px;
+}
+
+.m-top-18px{
+    margin-top: 18px;
+}
+
+#right-catalog{
+    /* box-sizing: border-box; */
+    width: 350px;
+    height: 1000px;
+    padding: 20px;
+    background-color: #F1F1F1;
+    border-radius: 10px;
+    position: absolute;
+    top: 150px;
+    right: 20px;
+}
+
+#right-catalog__strong{
+    color: var(--blue-patika);
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.div-desc{
+    width: 100%;
+}
+
+.div-desc__strong-p{
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+
+#right-description-img{
+    width: 250px;
+    height: 125px;
+    margin-top: 10px;
+}
+
+.desc-img{
+    margin-top: 5px;
+    margin-left: 30px;
+}
+
+.m-left{
+    margin-left: 30px;
+}
+
+.right-alert-button{
+    border: 2px solid var(--gold-patika);
+    background-color: var(--gray-patika);
+    color: #262626;
+    font-size: 20px;
+    padding: 5px 10px 5px 10px;
+}
+
+.right-alert-button:hover{
+    background-color: var(--bg-intro);
+}
+
+/* LESSONS CONTAINER */
+#lessons-container{
+    display: inline-block;
+    padding: 20px;
+    background-color: white;
+    width: 63%;
+    height: auto;
+    border-radius: 10px;
+
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 50px;
+}
+
+#lesson-container--h2-container{
+    margin-bottom: 24px;
+}
+
+#lesson-container__h2{
+    display: inline-block;
+    font-weight: lighter;
+    font-size: 29px;
+}
+
+
+.progress{
+    height: 40px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.icon{
+    width: 60px;
+    height: 40px;
+    float: left;
+    margin-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.lesson-rate-container{
+    float: left;
+    width: auto;
+}
+
+.lesson-button-container{
+    height: 40px;
+}
+
+.lesson-button-right{
+    float: right;
+    border: 2px solid var(--gold-patika);
+    background-color: var(--gray-patika);
+    color: #262626;
+    font-size: 20px;
+    padding: 5px 10px 5px 10px;
+    height: 40px;
+}
+
+.lesson-button-right:hover{
+    background-color: var(--bg-intro);
+}
+
+.progress-bar-container{
+    border: 2px solid var(--dark-patika);
+    float: left;
+    width: calc(100% - 60px);
+    background-color: orange;
+    height: 100%;
+    position: relative;
+}
+
+.progress-rate{
+    position: absolute;
+    top: 9px;
+    padding-left: calc(100% - 50%);
+}

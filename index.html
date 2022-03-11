@@ -4,7 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/png" href="https://patika-prod.s3.eu-central-1.amazonaws.com/staticFiles/favicon.png?v1" sizes="16x16 32x32 64x64">
+    <link rel="apple-touch-icon" sizes="120x120" href="https://patika-prod.s3.eu-central-1.amazonaws.com/staticFiles/apple-touch-icon-precomposed.png">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/main.css">
     <title>Patika Clone - Furkan Mirze</title>
 </head>
 <body>
@@ -55,27 +60,460 @@
                     Furkan Mirze
                 </div>
                 <div id="score-div" class="profile-score-class">
-                    04562
+                    <img src="https://patika-prod.s3.eu-central-1.amazonaws.com/staticFiles/points-coin.png" class="cell-img">
+                        <span>04526</span>
                 </div>
             </div>
         </div>
     </header>
     <main class="clearfix">
-        <div id="main-top-container">
-            <div class="main-top-container__first">
-                <p id="course-address-p">Eğitimler > Başlangıç Seviye Frontend Web Development Patikası</p>
-                <h1 id="main-top-container__first-h1">Başlangıç Seviye Frontend Web Development Patikası</h1>
-                <p id="course-description">
-                    Web Development dünyasısın temellerini bu Patika da öğrenmeye hazır mısın? HTML, CSS ve JavaScript ile frontend web development kariyerine bu patikadan başlayabilirsin. Bu patikada bitireceğin eğitimler frontend ve backend alanında bir çok konu için temel olacaklar.
-                </p>
-            </div>
-            <div class="main-top-container__second">
-                <div id="patika-join-alert-button">
-                    <button class="alert-button">Patikaya Katıldın</button>
-                    <div id="last-up-date-div">
-                        <em>Son düzenleme: 08.03.2022</em>
+        <div id="general-container">
+            <div id="main-top-container">
+                <div class="main-top-container__first">
+                    <p id="course-address-p">Eğitimler > Başlangıç Seviye Frontend Web Development Patikası</p>
+                    <h1 id="main-top-container__first-h1">Başlangıç Seviye Frontend Web Development Patikası</h1>
+                    <p id="course-description">
+                        Web Development dünyasısın temellerini bu Patika da öğrenmeye hazır mısın? HTML, CSS ve JavaScript ile frontend web development kariyerine bu patikadan başlayabilirsin. Bu patikada bitireceğin eğitimler frontend ve backend alanında bir çok konu için temel olacaklar.
+                    </p>
+                </div>
+                <div class="main-top-container__second">
+                    <div id="patika-join-alert-button">
+                        <button class="alert-button">Patikaya Katıldın</button>
+                        <div id="last-up-date-div">
+                            <em>Son düzenleme: 08.03.2022</em>
+                        </div>
                     </div>
                 </div>
+            </div>
+            <div id="info-div-container">
+                <div id="info-div-first">
+                    <div id="cell1" class="info-div-first__item-div">
+                        <img src="https://patika-prod.s3.eu-central-1.amazonaws.com/staticFiles/woman-with-bunny-ears.png" alt="katilimci-img" class="cell-img">
+                        <span>34762 Katılımcı</span>
+                    </div>
+                    <div id="cell2" class="info-div-first__item-div">
+                        <img src="https://patika-prod.s3.eu-central-1.amazonaws.com/staticFiles/books-m.png" alt="katilimci-img" class="cell-img">
+                        <span>77 saatlik ders içeriği</span>
+                    </div>
+                    <div id="cell3" class="info-div-first__item-div">
+                        <img src="https://patika-prod.s3.eu-central-1.amazonaws.com/staticFiles/woman-weight-lifting.png" class="cell-img">
+                        <span>26 alıştırma ve 117 test</span>
+                    </div>
+                    <div id="cell4" class="info-div-first__item-div">
+                        <img src="https://patika-prod.s3.eu-central-1.amazonaws.com/staticFiles/handshake.png" class="cell-img">
+                        <span>topluluk desteği</span>
+                    </div>
+                </div>
+                <div id="info-div-second">
+                    <div id="cell5" class="info-div-second__item-div">
+                        <img src="https://patika-prod.s3.eu-central-1.amazonaws.com/staticFiles/money-mouth.png" class="cell-img">
+                        <span>Online & ücretsiz</span>
+                    </div>
+                    <div id="cell6"  class="info-div-second__item-div">
+                        <img src="https://patika-prod.s3.eu-central-1.amazonaws.com/staticFiles/flexed-biceps.png" class="cell-img">
+                        <span>Bootcamp’e yerleştirme önceliği</span>
+                    </div>
+                    <div id="cell7"  class="info-div-second__item-div">
+                        <img src="https://patika-prod.s3.eu-central-1.amazonaws.com/staticFiles/points-coin.png" class="cell-img">
+                        <span>360 puan kazan</span>
+                    </div>
+                </div>
+            </div>
+            <div id="right-catalog">
+                <div id="caption-div">
+                    <strong id="right-catalog__strong">Heyecanlı bir kariyere adım at</strong>
+                </div>
+                <div id="desc-first" class="div-desc m-top">
+                    <p>
+                        <strong class="div-desc__strong">👩‍💻 Frontend Web Developer</strong>
+                        <p class="div-desc__strong-p">
+                            Web arayüz geliştirici, web siteleri ve web tabanlı uygulamalar için kullanıcı arayüzü tasarımları oluşturmak, bu tasarımları test etmek ve mevcut arayüzlerin tasarımlarıyla performansını iyileştirmekten sorumludur.
+                        </p>
+                    </p>
+                </div>
+                <div id="desc-second" class="div-desc m-top">
+                    <p>
+                        <strong class="div-desc__strong">📊 Kariyer potansiyeli</strong>
+                        <p class="div-desc__strong-p">
+                            Türkiye'de işe yerleşme oranının oldukça yüksek olduğu bir alan. Bu patikayı içerikler bitirdirkten sonra portföyündeki proje sayısını ve niteliklerini artırarak kısa sürede çalışmaya başlayabilirsin.
+                        </p>
+                    </p>
+                </div>
+                <div id="desc-img-1" class="desc-img m-top">
+                    <img src="https://patika-prod.s3-eu-central-1.amazonaws.com/content/paths/baslangic-seviye-frontend-web-development-patikasi/m72hCJuhwJSH8agC5" alt="right-catalog-description-image-patika" id="right-description-img">
+                </div>
+                <div id="desc-img-2" class="desc-img m-top">
+                    <img src="https://patika-prod.s3-eu-central-1.amazonaws.com/content/paths/baslangic-seviye-frontend-web-development-patikasi/ZZ3y6NeFQc5QXgopL" id="right-description-img">
+                </div>
+                <div id="desc-third" class="div-desc m-top-18px">
+                    <p>
+                        <strong class="div-desc__strong">💼 Patika bitirmek kariyerine nasıl yardımcı olacak?</strong>
+                        <p class="div-desc__strong-p">
+                            Yüksek ücretli işlere başvurabilir veya şu anda web geliştirme sektöründe en çok talep edilen konulardan birinde uzmanlaşabileceksiniz.
+                        </p>
+                    </p>
+                </div>
+                <div id="patika-join-alert-button" class="m-left">
+                    <button class="right-alert-button">Patikaya Katıldın</button>
+                </div>
+            </div>
+            <div id="lessons-container">
+                <div id="lesson-container--h2-container">
+                    <h2 id="lesson-container__h2">Dersler</h2>
+                </div>
+                <!-- LESSON PROGRESS - NAME - RATE AREA -->
+                <div id="lesson-container-progress" class="progress">
+                    <div class="disc icon">
+                        <i class="fas fa-dot-circle" style="color: rgb(51, 51, 51);"></i>
+                    </div>
+                    <!-- LESSON RATE AREA -->
+                    <div class="lesson-rate-container">
+                        <div class="lesson-rate-container__top">
+                            Herkes İçin Temel Dersler
+                        </div>
+                        <div class="lesson-rate-container__bottom">
+                            4.7
+                            <span>
+                                <i class="fas fa-star" style="color: rgb(254, 191, 94);"></i>
+                            </span>
+                            <span>
+                                <i class="fas fa-star" style="color: rgb(254, 191, 94);"></i>
+                            </span>
+                            <span>
+                                <i class="fas fa-star" style="color: rgb(254, 191, 94);"></i>
+                            </span>
+                            <span>
+                                <i class="fas fa-star" style="color: rgb(254, 191, 94);"></i>
+                            </span>
+                            <span>
+                                <i class="fas fa-star" style="color: rgb(254, 191, 94);"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="lesson-button-container">
+                        <button class="lesson-button-right">Tamamlandı</button>
+                    </div>
+                </div>
+                <!-- LESSON PROGRESS BAR -->
+                <div id="lesson-container-progress-bar" class="progress">
+                    <div class="disc icon">
+                        <i class="fa-light fa-pipe"></i>
+                    </div>
+                    <div class="progress-bar-container">
+                        <div class="progress-bar progress-rate">
+                            100%
+                        </div>
+                    </div>
+                </div>
+                <!-- ----------- -->
+                <div id="lesson-container-progress" class="progress">
+                    <div class="disc icon">
+                        <i class="fas fa-dot-circle" style="color: rgb(51, 51, 51);"></i>
+                    </div>
+                    <!-- LESSON RATE AREA -->
+                    <div class="lesson-rate-container">
+                        <div class="lesson-rate-container__top">
+                            Visual Studio Code Kullanımı
+                        </div>
+                        <div class="lesson-rate-container__bottom">
+                            4.79
+                            <span>
+                                <i class="fas fa-star" style="color: rgb(254, 191, 94);"></i>
+                            </span>
+                            <span>
+                                <i class="fas fa-star" style="color: rgb(254, 191, 94);"></i>
+                            </span>
+                            <span>
+                                <i class="fas fa-star" style="color: rgb(254, 191, 94);"></i>
+                            </span>
+                            <span>
+                                <i class="fas fa-star" style="color: rgb(254, 191, 94);"></i>
+                            </span>
+                            <span>
+                                <i class="fas fa-star" style="color: rgb(254, 191, 94);"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="lesson-button-container">
+                        <button class="lesson-button-right">Tamamlandı</button>
+                    </div>
+                </div>
+                <!-- LESSON PROGRESS BAR -->
+                <div id="lesson-container-progress-bar" class="progress">
+                    <div class="disc icon">
+                        <i class="fa-light fa-pipe"></i>
+                    </div>
+                    <div class="progress-bar-container">
+                        <div class="progress-bar progress-rate">
+                            100%
+                        </div>
+                    </div>
+                </div>
+                <!-- ----------- -->
+                <div id="lesson-container-progress" class="progress">
+                    <div class="disc icon">
+                        <i class="fas fa-dot-circle" style="color: rgb(51, 51, 51);"></i>
+                    </div>
+                    <!-- LESSON RATE AREA -->
+                    <div class="lesson-rate-container">
+                        <div class="lesson-rate-container__top">
+                            GIT
+                        </div>
+                        <div class="lesson-rate-container__bottom">
+                            4.66
+                            <span>
+                                <i class="fas fa-star" style="color: rgb(254, 191, 94);"></i>
+                            </span>
+                            <span>
+                                <i class="fas fa-star" style="color: rgb(254, 191, 94);"></i>
+                            </span>
+                            <span>
+                                <i class="fas fa-star" style="color: rgb(254, 191, 94);"></i>
+                            </span>
+                            <span>
+                                <i class="fas fa-star" style="color: rgb(254, 191, 94);"></i>
+                            </span>
+                            <span>
+                                <i class="fas fa-star" style="color: rgb(254, 191, 94);"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="lesson-button-container">
+                        <button class="lesson-button-right">Tamamlandı</button>
+                    </div>
+                </div>
+                <!-- LESSON PROGRESS BAR -->
+                <div id="lesson-container-progress-bar" class="progress">
+                    <div class="disc icon">
+                        <i class="fa-light fa-pipe"></i>
+                    </div>
+                    <div class="progress-bar-container">
+                        <div class="progress-bar progress-rate">
+                            100%
+                        </div>
+                    </div>
+                </div>
+                <!-- ----------- -->
+                <div id="lesson-container-progress" class="progress">
+                    <div class="disc icon">
+                        <i class="fas fa-dot-circle" style="color: rgb(51, 51, 51);"></i>
+                    </div>
+                    <!-- LESSON RATE AREA -->
+                    <div class="lesson-rate-container">
+                        <div class="lesson-rate-container__top">
+                            HTML
+                        </div>
+                        <div class="lesson-rate-container__bottom">
+                            4.78
+                            <span>
+                                <i class="fas fa-star" style="color: rgb(254, 191, 94);"></i>
+                            </span>
+                            <span>
+                                <i class="fas fa-star" style="color: rgb(254, 191, 94);"></i>
+                            </span>
+                            <span>
+                                <i class="fas fa-star" style="color: rgb(254, 191, 94);"></i>
+                            </span>
+                            <span>
+                                <i class="fas fa-star" style="color: rgb(254, 191, 94);"></i>
+                            </span>
+                            <span>
+                                <i class="fas fa-star" style="color: rgb(254, 191, 94);"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="lesson-button-container">
+                        <button class="lesson-button-right">Tamamlandı</button>
+                    </div>
+                </div>
+                <!-- LESSON PROGRESS BAR -->
+                <div id="lesson-container-progress-bar" class="progress">
+                    <div class="disc icon">
+                        <i class="fa-light fa-pipe"></i>
+                    </div>
+                    <div class="progress-bar-container">
+                        <div class="progress-bar progress-rate">
+                            100%
+                        </div>
+                    </div>
+                </div>
+                <!-- ----------- -->
+                <div id="lesson-container-progress" class="progress">
+                    <div class="disc icon">
+                        <i class="fas fa-dot-circle" style="color: rgb(51, 51, 51);"></i>
+                    </div>
+                    <!-- LESSON RATE AREA -->
+                    <div class="lesson-rate-container">
+                        <div class="lesson-rate-container__top">
+                            CSS
+                        </div>
+                        <div class="lesson-rate-container__bottom">
+                            4.92
+                            <span>
+                                <i class="fas fa-star" style="color: rgb(254, 191, 94);"></i>
+                            </span>
+                            <span>
+                                <i class="fas fa-star" style="color: rgb(254, 191, 94);"></i>
+                            </span>
+                            <span>
+                                <i class="fas fa-star" style="color: rgb(254, 191, 94);"></i>
+                            </span>
+                            <span>
+                                <i class="fas fa-star" style="color: rgb(254, 191, 94);"></i>
+                            </span>
+                            <span>
+                                <i class="fas fa-star" style="color: rgb(254, 191, 94);"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="lesson-button-container">
+                        <button class="lesson-button-right">Tamamlandı</button>
+                    </div>
+                </div>
+                <!-- LESSON PROGRESS BAR -->
+                <div id="lesson-container-progress-bar" class="progress">
+                    <div class="disc icon">
+                        <i class="fa-light fa-pipe"></i>
+                    </div>
+                    <div class="progress-bar-container">
+                        <div class="progress-bar progress-rate">
+                            100%
+                        </div>
+                    </div>
+                </div>
+                <!-- ----------- -->
+                <div id="lesson-container-progress" class="progress">
+                    <div class="disc icon">
+                        <i class="fas fa-dot-circle" style="color: rgb(51, 51, 51);"></i>
+                    </div>
+                    <!-- LESSON RATE AREA -->
+                    <div class="lesson-rate-container">
+                        <div class="lesson-rate-container__top">
+                            Bootstrap
+                        </div>
+                        <div class="lesson-rate-container__bottom">
+                            4.84
+                            <span>
+                                <i class="fas fa-star" style="color: rgb(254, 191, 94);"></i>
+                            </span>
+                            <span>
+                                <i class="fas fa-star" style="color: rgb(254, 191, 94);"></i>
+                            </span>
+                            <span>
+                                <i class="fas fa-star" style="color: rgb(254, 191, 94);"></i>
+                            </span>
+                            <span>
+                                <i class="fas fa-star" style="color: rgb(254, 191, 94);"></i>
+                            </span>
+                            <span>
+                                <i class="fas fa-star" style="color: rgb(254, 191, 94);"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="lesson-button-container">
+                        <button class="lesson-button-right">Tamamlandı</button>
+                    </div>
+                </div>
+                <!-- LESSON PROGRESS BAR -->
+                <div id="lesson-container-progress-bar" class="progress">
+                    <div class="disc icon">
+                        <i class="fa-light fa-pipe"></i>
+                    </div>
+                    <div class="progress-bar-container">
+                        <div class="progress-bar progress-rate">
+                            100%
+                        </div>
+                    </div>
+                </div>
+                <!-- ----------- -->
+                <div id="lesson-container-progress" class="progress">
+                    <div class="disc icon">
+                        <i class="fas fa-dot-circle" style="color: rgb(51, 51, 51);"></i>
+                    </div>
+                    <!-- LESSON RATE AREA -->
+                    <div class="lesson-rate-container">
+                        <div class="lesson-rate-container__top">
+                            Veri Yapıları ve Algoritmalar
+                        </div>
+                        <div class="lesson-rate-container__bottom">
+                            4.68
+                            <span>
+                                <i class="fas fa-star" style="color: rgb(254, 191, 94);"></i>
+                            </span>
+                            <span>
+                                <i class="fas fa-star" style="color: rgb(254, 191, 94);"></i>
+                            </span>
+                            <span>
+                                <i class="fas fa-star" style="color: rgb(254, 191, 94);"></i>
+                            </span>
+                            <span>
+                                <i class="fas fa-star" style="color: rgb(254, 191, 94);"></i>
+                            </span>
+                            <span>
+                                <i class="fas fa-star" style="color: rgb(254, 191, 94);"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="lesson-button-container">
+                        <button class="lesson-button-right">Tamamlandı</button>
+                    </div>
+                </div>
+                <!-- LESSON PROGRESS BAR -->
+                <div id="lesson-container-progress-bar" class="progress">
+                    <div class="disc icon">
+                        <i class="fa-light fa-pipe"></i>
+                    </div>
+                    <div class="progress-bar-container">
+                        <div class="progress-bar progress-rate">
+                            100%
+                        </div>
+                    </div>
+                </div>
+                <!-- ----------- -->
+                <div id="lesson-container-progress" class="progress">
+                    <div class="disc icon">
+                        <i class="fas fa-dot-circle" style="color: rgb(51, 51, 51);"></i>
+                    </div>
+                    <!-- LESSON RATE AREA -->
+                    <div class="lesson-rate-container">
+                        <div class="lesson-rate-container__top">
+                            JavaScript
+                        </div>
+                        <div class="lesson-rate-container__bottom">
+                            4.7
+                            <span>
+                                <i class="fas fa-star" style="color: rgb(254, 191, 94);"></i>
+                            </span>
+                            <span>
+                                <i class="fas fa-star" style="color: rgb(254, 191, 94);"></i>
+                            </span>
+                            <span>
+                                <i class="fas fa-star" style="color: rgb(254, 191, 94);"></i>
+                            </span>
+                            <span>
+                                <i class="fas fa-star" style="color: rgb(254, 191, 94);"></i>
+                            </span>
+                            <span>
+                                <i class="fas fa-star" style="color: rgb(254, 191, 94);"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="lesson-button-container">
+                        <button class="lesson-button-right">Tamamlandı</button>
+                    </div>
+                </div>
+                <!-- LESSON PROGRESS BAR -->
+                <div id="lesson-container-progress-bar" class="progress">
+                    <div class="disc icon">
+                        <i class="fa-light fa-pipe"></i>
+                    </div>
+                    <div class="progress-bar-container">
+                        <div class="progress-bar progress-rate">
+                            100%
+                        </div>
+                    </div>
+                </div>
+                <!-- ----------- -->
             </div>
         </div>
     </main>
