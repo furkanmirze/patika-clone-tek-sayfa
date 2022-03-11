@@ -4,7 +4,7 @@
 
 >### Sayfa klonu hakkında daha fazla bilgi edinmek için **CSS** dizini içindeki stil dosyalarını inceleyin.
 
->### Sayfa üzerindeki bazı küçük detaylar dışında aynı hemen hemen aynı oradan yapıldı
+>### Sayfa üzerindeki bazı küçük detaylar dışında aynı oranda yapıldı
 
 
 
