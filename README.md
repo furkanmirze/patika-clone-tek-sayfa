@@ -8,6 +8,6 @@
 
 
 
-### Screen Shots
+### GÖRSELLERİNE AŞAĞIDAN BAKABİLİRSİNİZ
 ![Ekran-Görüntüsü-1](screenshots/patika-clone-ss-1.png)
 ![Ekran-Görüntüsü-2](screenshots/patika-clone-ss-2.png)
